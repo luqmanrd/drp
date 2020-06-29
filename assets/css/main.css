@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+}
+
+body{ 
+  background-image: radial-gradient(#ffffff,#e3e3e3);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+.bg-blue{
+  background-color: #085078!important;
+}
+.container-bg-white{
+  background-color: #ffffff;
+  padding: 2rem 2rem;
+  width: 100%;
+}
+.jumbotron{
+  background-color: #ffffff;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+.titlepage{
+  margin: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid;
+}
+.titleform{
+  margin: 10px;
+  margin-left: 0px;
+  border-bottom: 2px solid;
+}
+.subtitleform{
+  margin: 10px;
+  margin-left: 0px;
+  border-bottom: 2px solid #808080;
+}
+.strong-grey{
+  color: #595959;
+}
+.borderline{
+  border-bottom: 3px solid;
+}
+.form-padding{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.input-padding{
+  padding-left: 10px;
+}
+.jumbotron{
+  border-radius: 0rem;
+}
+.profil-margin{
+  margin-top: 10px; 
+  margin-bottom: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #085078;
+}
+.warning-text{
+  color: #d9534f;
+}
+.smallHelp{
+  padding-top: 5px;
+}
+.padding-left-right{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ui-autocomplete {
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  padding: 0 0.6rem;
+  .ui-menu-item {
+    border: 1px solid #eceff1;
+    border-radius: 0.25rem;
+    .ui-state-active,
+    .ui-widget-content .ui-state-active,
+    .ui-widget-header .ui-state-active,
+    a.ui-button:active,
+    .ui-button:active,
+    .ui-button.ui-state-active:hover {
+      background-color: #eceff1;
+      border-color: #eceff1;
+      color: #0d47a1;
+    }
+  }
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+@media (min-width: 576px){
+  .jumbotron{
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .form-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .smallHelp{
+    padding-top: 5px;
+    margin-left: 15px;
+  }
+}
+
